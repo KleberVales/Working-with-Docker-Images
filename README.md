@@ -72,4 +72,12 @@ docker rmi <id-ou-nome-da-imagem>
 
 ## 📂 Estrutura do Repositório
 
+```csharp
+
+Working-with-Docker-Images/
+│-- Dockerfile.example     # Exemplo de Dockerfile simples
+│-- README.md              # Documentação principal
+
+```
+
 
