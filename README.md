@@ -12,3 +12,9 @@ As imagens são a base dos containers e permitem empacotar aplicações junto co
 - Como publicar no Docker Hub
 
 ## 🔹 Comandos básicos
+
+1. Listar imagens
+
+```bash
+docker images
+```
