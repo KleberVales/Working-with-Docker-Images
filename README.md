@@ -26,3 +26,9 @@ docker pull <nome-da-imagem>:<tag>
 # Exemplo:
 docker pull nginx:latest
 ```
+
+3. Criar container a partir de uma imagem
+
+```bash
+docker run -d --name meu_nginx -p 8080:80 nginx
+```
