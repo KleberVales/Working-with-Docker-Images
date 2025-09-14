@@ -106,4 +106,11 @@ docker build -t minha-app:1.0 .
 
 ```
 
+Para rodar a aplicação:
+
+```bash
+docker run -d -p 8080:8080 minha-app:1.0
+
+```
+
 
