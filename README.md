@@ -10,3 +10,5 @@ As imagens são a base dos containers e permitem empacotar aplicações junto co
 - Como remover imagens antigas
 - Como versionar imagens
 - Como publicar no Docker Hub
+
+## 🔹 Comandos básicos
