@@ -99,4 +99,11 @@ CMD ["java", "-jar", "app.jar"]
 
 ```
 
+Para construir a imagem:
+
+```bash
+docker build -t minha-app:1.0 .
+
+```
+
 
