@@ -18,3 +18,11 @@ As imagens são a base dos containers e permitem empacotar aplicações junto co
 ```bash
 docker images
 ```
+
+2. Baixar imagem do Docker Hub
+
+```bash
+docker pull <nome-da-imagem>:<tag>
+# Exemplo:
+docker pull nginx:latest
+```
