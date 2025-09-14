@@ -64,4 +64,10 @@ docker push usuario/meu-repositorio:1.0
 
 7. Remover imagens
 
+```bash
+
+docker rmi <id-ou-nome-da-imagem>
+
+```
+
 
