@@ -38,3 +38,9 @@ docker run -d --name meu_nginx -p 8080:80 nginx
 ```bash
 docker build -t minha-imagem:1.0 .
 ```
+
+5. Marcar (taggear) uma imagem
+
+```bash
+docker tag minha-imagem:1.0 usuario/meu-repositorio:1.0
+```
