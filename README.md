@@ -32,3 +32,9 @@ docker pull nginx:latest
 ```bash
 docker run -d --name meu_nginx -p 8080:80 nginx
 ```
+
+4. Criar imagem a partir de um Dockerfile
+
+```bash
+docker build -t minha-imagem:1.0 .
+```
