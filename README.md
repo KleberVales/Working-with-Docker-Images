@@ -82,4 +82,21 @@ Working-with-Docker-Images/
 
 ## 🚀 Exemplo de Dockerfile
 
+```dockerfile
+
+# Imagem base
+FROM openjdk:17-jdk-slim
+
+# Diretório de trabalho dentro do container
+WORKDIR /app
+
+# Copia o jar para o container
+COPY app.jar app.jar
+
+# Comando para rodar a aplicação
+CMD ["java", "-jar", "app.jar"]
+
+
+```
+
 
